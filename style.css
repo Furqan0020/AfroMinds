@@ -160,3 +160,48 @@ body{
   }
   
 }
+/* AfroMind project css for form button */
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+.form-section {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px; /* Rounded box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded fields */
+}
+
+.contact-form button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px; /* Rounded button */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
