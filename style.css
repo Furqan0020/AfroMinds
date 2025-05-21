@@ -229,3 +229,26 @@ body {
   text-align: center;
   background-color: #fff;
 }
+
+
+body.dark-mode {
+  background-color: #FCFCFC; /* Light dark mode (client-requested) */
+  color: #000000;
+}
+
+#darkModeToggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body.dark-mode #darkModeToggle {
+  background-color: #000;
+  color: #fff;
+}
