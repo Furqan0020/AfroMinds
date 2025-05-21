@@ -212,3 +212,20 @@ body {
 .contact-form button {
   border-radius: 0px; /* Squared edges */
 }
+/* toogle dark mode button css */
+body {
+  background-color: #f4f4f4;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+#darkModeToggle {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
