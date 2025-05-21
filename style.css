@@ -1,0 +1,162 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+  
+}
+body{
+    font-family:montserrat ;
+}
+.header{
+    /* border : 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .menu{
+    /* border : 1px solid red; */
+    margin-right: 30px;
+    display: flex;
+    list-style: none;
+    gap : 50px;
+}
+.header .menu a{
+    text-decoration: none;
+    color : black;
+}
+.menuIcon{
+    display:none;
+}
+/* Header section ends here */
+
+.content{
+    /* border : 1px solid red; */
+    display: flex;
+    gap : 20px;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.items{
+    /* border : 1px solid yellow; */
+    padding : 10px;
+    
+}
+.content .description{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productName, .price{
+    /* border: 2px solid black; */
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ff6200;
+    color : white;
+    cursor: pointer;
+}
+.content img{
+    height: 280px;
+    width: 280px;
+}
+
+/* Content Section Ends Here */
+.footer{
+    margin-top: 20px;
+    /* border : 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center ;
+    gap : 30px;
+    margin-bottom: 30px;
+}
+.footer .menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+.footer .menu a{
+    /* text-decoration: none; */
+    color : black;
+
+}
+.socialLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.fa-brands{
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-facebook{
+    color : blue;
+    
+}
+.fa-instagram , .fa-youtube{
+    color:red
+}
+/* Footer style ends here */
+
+
+@media screen and (max-width: 660px) {
+  /* header section resposive design */
+  .header{
+    flex-direction: column;
+  }
+  .header .menu{
+    display: none;
+  }
+  .menuIcon{
+    float: right;
+    display: block;
+    margin-right: 20px;
+    color : orange;
+    font-size: 40px;
+    cursor: pointer;
+    
+  }
+  .clear{
+    clear: both;
+  }
+  .menu.hidden {
+    display: none;
+  }
+  /* menubtn class for responsive menu */
+  .menubtn{
+    /* background-color: aqua; */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .menubtn li{
+    background-color: #ff6200;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  .menubtn a{
+    text-decoration: none ;
+    color:white;
+    font-weight: bold;
+    
+  }
+  /* footer resposive design */
+  .footer{
+    flex-direction: column;
+  }
+  
+}
