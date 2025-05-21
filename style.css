@@ -205,3 +205,10 @@ body {
 .contact-form button:hover {
   background-color: #0056b3;
 }
+/* styles.css (updated for squared edges) */
+.form-section,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  border-radius: 0px; /* Squared edges */
+}
