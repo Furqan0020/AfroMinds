@@ -212,3 +212,20 @@ body {
 .contact-form button {
   border-radius: 0px; /* Squared edges */
 }
+/* add pricing card css */
+
+.pricing-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  background-color: #fff;
+}
